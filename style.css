@@ -1,3 +1,14 @@
+:root {
+  --main-color-lite: #5CBAC9;
+  --main-color-dark: #6788B2;
+  --secondary-color-lite: #71629E;
+  --secondary-color-dark: #5A4494;
+  --heading-color: #9FA6AA;
+  --text-color: #E1E7E8;
+  --accent-color: #A6D4DD;
+  --btn-padding: 0.5rem 2.5rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +16,7 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Zalando Sans Expanded','Inter','Open Sans','Montserrat', sans-serif;
   color: #111;
   background: #fff;
   line-height: 1.6;
